@@ -1,0 +1,70 @@
+.container{
+    height: 100vh;
+    background-image: url(https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/09/hinh-nen-may-tinh-4k-cong-nghe-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+p{
+    width: 80vw;
+}
+input{
+    width: 83vw;
+    height: 5vh;
+    border: 1px solid orange;
+    padding-left: 4%;
+}
+.policy{
+    font-size: small;
+}
+.in{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 4%;
+}
+a{
+    color: blue
+}
+.button_box{
+    height: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.button_box button{
+    color: white;
+    width: 30%;
+    height: 80%;
+    background-color: rgb(54, 146, 245);
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.ad_box{
+    display: flex;
+    height: 5%;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+.ad_box p{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    vertical-align: center;
+    width: 30%;
+    height: 100%;
+}
+.ad_box button{
+    background: rgb(5, 199, 5);
+    color: white;
+}
